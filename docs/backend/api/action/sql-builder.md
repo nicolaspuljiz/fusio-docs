@@ -80,3 +80,13 @@ It generates the following output:
   ]
 }
 ```
+
+### Notes
+To use url params in the query you need to define the param "$context" in the definition
+
+```json
+"$params": {
+  "$context":"limit",
+  "$default": 10
+}
+```
